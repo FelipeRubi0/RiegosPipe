@@ -5,46 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RiegosPipe</title>
-    <link rel="shortcut icon" href="../img/riego-por-goteo-subterraneo.png" type="image/x-icon"></head>
+    <link rel="shortcut icon" href="../img/riego-por-goteo-subterraneo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css"> 
+</head>
 <body>  
      
-    <div>   
-        <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>                  
-                <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                <li><a href="../pages/galeria.html">Galeria</a></li> 
-                <li><a href="../pages/productos.html">Productos</a></li>
-                <li><a href="../pages/contactos.html">Contactos</a></li>
-                <li><a href="#pie de footer">Ir al pie de pagina</a></li>
-
-            </ul>
-        </nav>
+    <div id="navbar1">   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../pages/galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contactos.html" >Contactos</a>
+                    
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </div>
           <!--Titulo De Pagina--> 
        
     <header class="titulo">
 
-        <h1 class="titulo__principal">RiegosPipe</h1>
-        <h2 class="titulo__sub"> Sistema De Riego</h2> 
+        <div class="col-xs-12 col-md-4 col-lg-3"><h1 class="titulo__principal">RiegosPipe</h1></div>
+        <div class="col-xs-12 col-md-4 col-lg-3"></div><h2 class="titulo__sub"> Sistema De Riego</h2></div>
             
     </header>  
     <main>
         <div class="nosotros">   
-            <h2 class="nosotros__2">Nosotros Somos:</h2>
-            <h3 class="nosotros__3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet assumenda deleniti odit dignidi</h3>
+            <div class="col-xs-12 col-md-4 col-lg-3"></div><h2 class="nosotros__2">Nosotros Somos:</h2></div>
+            <div class="col-xs-12 col-md-4 col-lg-3"></div><h3 class="nosotros__3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet assumenda deleniti odit dignidi</h3></div>
         </div>
        
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+       
+          <section id="nosotros1">
+              <div class="col-xs-12 col-md-8 col-lg-5"><img class="img-thumbnail img-fluid" src="../img/male-farmer-watering-edited.jpg">
+          
+          
+              </section>
+          
         <br>
         <br>
         <br> 
@@ -76,6 +90,6 @@
      </footer>
     
 
-    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
 </body>
 </html>

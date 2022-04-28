@@ -210,6 +210,15 @@ font-size: 15px;
     
 }
 
+
+#nosotros1{
+    
+    display: flex;
+    justify-content: center;
+
+    
+}
+
 .footer{
     width: 98%;
     padding: 15px;
