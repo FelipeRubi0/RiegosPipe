@@ -196,8 +196,11 @@ body{
  margin-bottom: 10px;   
 }
 .nosotros{
+    background-color: #274610;
 color: white;
 font-family: Arial, Helvetica, sans-serif;
+padding: 15px;
+margin: 10px;
 font-size: 15px;
 
 }
@@ -215,25 +218,126 @@ font-size: 15px;
     
     display: flex;
     justify-content: center;
-
-    
-}
-
-.footer{
-    width: 98%;
-    padding: 15px;
-    box-sizing: border-box;
-    border-radius: 10px;
+    animation-name: desplazarse;
+    animation-duration: 5s;
     margin: 15px;
-    background-color: #8ED658;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: space-between;
+
     
-    
-    
-    
+}
+@keyframes desplazarse {
+    from {
+        position: relative;
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
 
 }
+.navbar ul li{
+    padding: 15px;
+}
+.logo{
+    width:100px;
+    cursor: pointer;
+}
+.foto{
+    display: flex;
+    text-align: center;
+}
+.carusel{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    animation-name: desplazarse;
+    animation-duration: 5s;
+}
+
+
+.pie-de-pagina {
+    width: 100%;
+    background-color: #388e50;
+    background-size: 20%;
+    position: relative;
+    left: 0px;
+    bottom: -500px;
+    height: 100%;
+    bottom: 0px;
+}
+
+.pie-de-pagina .grupo-1 {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: auto;
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding-top: 20px;
+    padding: 15px 10px;
+    background-color: #388e50;
+    
+}
+
+.pie-de-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina .grupo-1 .box figure img {
+    width: 150px;
+}
+
+.pie-de-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-de-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-de-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 15px;
+    background-color: #469b1b;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-de-pagina .grupo-1 .red-social a:hover {
+    color: aqua;
+}
+
+.pie-de-pagina .grupo-2 {
+    background-color: #213c28;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-de-pagina .grupo-2 small {
+    font-size: 15px;
+}
+@media (max-width:800px){
+
+    .pie-de-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 5px;
+    }
+}
+
+
    
