@@ -1,6 +1,9 @@
 @import "_variables";
+@import "_mixins";
 @import "_formulario";
 @import "_footer";
+@import "_botones";
+
 *{
     margin: 0;
     padding: 0;
@@ -126,6 +129,7 @@ body{
     border-radius: 10px ;
     padding: 20px;
 
+
 }
 
 .tarjeta:hover{
@@ -152,6 +156,14 @@ body{
     margin: 20px;
     
 }
+.tarjet{
+    box-shadow: 5px 5px 15px 5px #000000;
+    border-radius: 10px ;
+    padding: 20px;
+    width: 200px;
+}
+
+
 .contenedorGaleria{
     display: flex;
     flex-direction: row;
@@ -159,6 +171,8 @@ body{
     
 
 }
+
+
 .foto1{
     width: 400px;
     height: 400px;

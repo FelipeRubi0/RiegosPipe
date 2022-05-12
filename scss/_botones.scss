@@ -1,0 +1,15 @@
+.boton{
+    color: map-get($boton, color );
+    background-color: map-get($boton, background-color);
+    width: map-get($boton, width );
+    
+  
+  }
+
+
+.boton_primario{
+    @extend .boton;
+    @include PropiedadPrincipal(blue ,yellow ,auto );
+}
+    
+
