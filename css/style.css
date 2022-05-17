@@ -177,33 +177,14 @@
   display: -ms-grid;
   display: grid;
   gap: 10px;
-  -ms-grid-columns: (1fr)[4];
+  -ms-grid-columns: (1fr) 4;
       grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: auto auto auto;
       grid-template-rows: auto auto auto;
       grid-template-areas: "nav    nav    nav    nav" "main   main   main   main" "footer footer footer footer";
 }
 
-.containerNav {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-area: nav;
-}
 
-.containerMain {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-area: main;
-}
-
-.containerfooter {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 4;
-  grid-area: footer;
-}
 
 .menu {
   margin: 5px;
@@ -437,5 +418,8 @@ body {
           animation-name: desplazarse;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
+}
+.beneficios{
+  color: aliceblue;
 }
 /*# sourceMappingURL=style.css.map */
