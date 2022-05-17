@@ -1,0 +1,29 @@
+{
+  "name": "3entregaproyecto-",
+  "version": "1.0.0",
+  "description": "En el archivo index.html sumé el SEO con las siguientes características: \t•\tDescripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “En RiegosPipe sabemos que un sistema de riego es una de las inversiones más económicamente eficientes para embellecer su jardín y aumentar el valor de su casa\" \t•\tPalabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: \"riegos,cesped, canchas,golf, agua”. y tambien en los encabezados.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+
+   "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeRubi0/RiegosPipeDesafio5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeRubi0/RiegosPipeDesafio5/issues"
+  },
+  "homepage": "https://github.com/FelipeRubi0/RiegosPipeDesafio5#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
