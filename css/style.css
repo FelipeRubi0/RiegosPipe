@@ -107,21 +107,6 @@
   margin: 0;
   padding: 0; }
 
-.containerGrid {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto auto auto;
-  grid-template-areas: "nav    nav    nav    nav" "main   main   main   main" "footer footer footer footer"; }
-
-.containerNav {
-  grid-area: nav; }
-
-.containerMain {
-  grid-area: main; }
-
-.containerfooter {
-  grid-area: footer; }
 
 .menu {
   margin: 5px;
