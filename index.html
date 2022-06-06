@@ -40,7 +40,7 @@
                     <a class="nav-link" href="./pages/productos.html">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/contactos.html">Contactos</a>
+                    <a class="nav-link" href="./pages/contactos.html">Contacto</a>
                   </li>
                  
                 </ul>
@@ -63,26 +63,39 @@
     </header>
            <!--Foto Principal-->
     <main> 
-        <div class="row justify-content-center">
-            <div class="col-xs-12 col-md-12 col-lg-12 carusel">
-              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                      <div class="carousel-item active ">
-                          <div><img class="foto img-fluid" src="./img/Field-editada.jpg"  alt="..."></div>
+        <section class="row d-flex justify-content-center">         
+              <div id="carouselExampleSlidesOnly" class="carousel slide col-xs-12 col-md-12 col-lg-12 col-xxl-9 m-15" data-bs-ride="true">
+                  <div class="carousel-inner position-relative ">
+                      <div class="carousel-item active row">                         
+                        <div class="carouselInicio d-flex col-xs-12 col-md-12 col-lg-12 col-xxl-9 ">
+                          <h3>Diseño</h3>
+                          <h4>En nuestra empresa sabemos que el diseño adecuado de un sistema de riego no depende únicamente de la ingeniería y la funcionalidad del mismo, sino también de como este aprovecha al máximo la ergonomia de cada sitio para resaltar su paisaje y añadir un componente arquitectónico único.
+                          ​</h4>
+                          <div><a href="./pages/nosotros.html" class="carouselContacto bg-primary text-light align-item-center text-center">MAS SOBRE NOSOTROS</a></div>
+                         
+                        </div>                          
                       </div>
-                      <div class="carousel-item col-xs-12 col-md-6 col-lg-4">
-                          <div><img class="foto img-fluid" src="./img/lawn-irrigation-edited.jpg"  alt="..."></div>
+                      <div class="carousel-item row">
+                          <div class="carouselInicio2 d-flex col-xs-12 col-md-12 col-lg-12 col-xxl-9">
+                            <h3>Beneficios</h3>
+                            <h4>Un sistema de riego es una mejora digna de considerar. No solo lo ayudara a mantener un paisaje saludable y atractivo para disfrutar con familia y amigos, sino que es la manera mas conveniente y eficaz de asegurarse que un espacio verde reciba el agua necesaria sin escasez ni exceso de riego.
+                            Es una de las inversiones mas económicamente eficientes para embellecer su casa, aumentar su valor, y ahorrar tiempo y dinero.</h4>
+                            <div><a href="./pages/contactos.html" class="carouselContacto bg-primary text-light align-item-center text-center ">QUIERO CONTACTARME</a></div>
+                          </div>
                       </div>
                   </div>
-              </div>
-            </div>
-          </div> 
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                  
+              </div>           
+        </section> 
           
-       <section>
-           <div class="row beneficios d-flex justify-content-center">
-               <h3 class="col-xs-12 col-md-4 col-lg-6">Beneficios</h3>
-          </div>
-        </section>
+      
 
     </main>
     <footer class="pie-de-pagina">

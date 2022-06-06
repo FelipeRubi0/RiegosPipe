@@ -3,6 +3,7 @@
 @import "_formulario";
 @import "_footer";
 @import "_botones";
+@import "_carousel";
 
 *{
     margin: 0;
@@ -53,7 +54,7 @@
 body{
     width: 100%;
     height: 100%;
-    background-image: url(../img/natural-g5e1af59d2_1920.jpg); 
+    background-image:url(../img/natural-g5e1af59d2_1920.jpg); 
    
     background-size: cover;
     background-position: center;
@@ -123,11 +124,27 @@ body{
     text-align: center;
     
 }
+.contenedorTarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
 .tarjeta{
-
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
     box-shadow: 5px 5px 15px 5px #000000;
     border-radius: 10px ;
     padding: 20px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 1s;
+    border: solid 3px rgb(62, 97, 74);
+    
 
 
 }
@@ -141,6 +158,7 @@ body{
 .tarjeta__titulo {
     text-align: center;
     font-size: 16px;
+    
 }
 
 .tarjeta__img{
@@ -149,13 +167,7 @@ body{
     border-radius: 15px;
 
 }
-.contenedorTarjetas{
-    display: flex;
-    flex-direction: row;   
-    justify-content:space-between;
-    margin: 20px;
-    
-}
+
 .tarjet{
     box-shadow: 5px 5px 15px 5px #000000;
     border-radius: 10px ;
@@ -244,7 +256,75 @@ font-size: 15px;
     justify-content: center;
     animation-name: desplazarse;
     animation-duration: 5s;
+    position: relative;
 }
+.Contactos{
+    width: auto;
+    height: 150px;
+    background-image: url(../img/Imagen-contactos.jpg);    
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    .Contactostexto{
+        font-style: normal;
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        
+        
+       
+
+    }
+
+   
+}
+
+.Informacion{
+    color: #2B689C;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+textarea{
+    width: 85%;
+    margin: 5px;   
+    border-radius: 4px;
+}
+
+    @media (max-width:800px){
+        .tarjeta:hover{
+            transition-property: all;
+            transition-duration: 1s;
+            background: #789463;
+
+        }
+        
+        
+    }
+
+    .oferta {
+        margin-right: 51px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        display: block;
+        text-align: center;
+        box-sizing: content-box;
+        width: 98%;
+        border: solid black;
+        padding: 5px;
+        background-color: rgb(47, 105, 57);
+    }
+.icarousel-item{
+    width: 700px;
+    height: 100px;
+}   
 
 
 

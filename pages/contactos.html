@@ -40,7 +40,7 @@
               <a class="nav-link" href="../pages/productos.html">Productos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  active" href="../pages/contactos.html">Contactos</a>
+              <a class="nav-link  active" href="../pages/contactos.html">Contacto</a>
             </li>
                  
             </ul>
@@ -57,8 +57,21 @@
       </div>  
     </section>
   </header>    
-    <main class="formulario">
-        <section class="form">
+    <main class="row">
+      <section>
+        <div class="Contactos">
+          <h2 class="Contactostexto">Contacto</h2>
+
+        </div>
+      </section>
+      <section>
+        <div>
+          <h3 class="Informacion">HAGA UNA CONSULTA</h3>
+          <p class="text-dark"><strong>Pónganse en contacto con nosotros para solicitar presupuestos y realizar todo tipo de consultas.</strong></p>
+        </div>
+      </section>
+      <section class="formulario">
+      <section class="form row">
             <form action="" method="get">
                 <h4 class="tituloForm">Formulario:</h4>
                 <label for="nombre">Nombre</label>
@@ -71,23 +84,24 @@
                 <input class="botones" type="email" placeholder="E-Mail" name="E-Mail">
 
                 <label for="mensaje">Mensaje</label>
+                <br>
                 <textarea name="mensaje"></textarea>
                 <br>
+                
                 <label for="sexo">Hombre</label>
-                <input  class="botones" type="radio" name="sexo" value="hombre">
-
+                <input type="radio" name="sexo" value="hombre">
+                <br>
                 <label for="sexo">Mujer</label>
-                <input class="botones" type="radio" name="sexo" value="mujer">
-
+                <input type="radio" name="sexo" value="mujer">
+                <br>
                 <label for="sexo">No Binario</label>
                 <input type="radio" name="sexo" value="No Binario">
-
-
-
-                <input type="submit">
-                <input type="reset">
+                <br>
+                <input class="d-flex align-item-center"type="submit">
+                <input class="d-flex text-center"type="reset">
             </form>
         </section>
+      </section>
     </main>
     
 

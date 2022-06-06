@@ -1,0 +1,35 @@
+.carouselInicio{
+    color: rgb(255, 255, 255);
+    
+    width: 1000px;
+    height: 500px;
+    background-image: url(../img/Field-editada.jpg);
+    background-size:cover ;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 15px;
+}
+.carouselInicio2{
+    color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 500px;
+    background-image: url(../img/lawn-irrigation-edited.jpg);
+    background-size:cover ;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 15px;
+    
+}
+.carouselContacto{
+     width: 230px;
+    height: 40px;
+    text-decoration: none;
+}
